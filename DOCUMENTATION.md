@@ -1,6 +1,6 @@
 # SECRET DIARY - Complete System Documentation
 
-## 📋 Table of Contents
+## Table of Contents
 1. [Project Overview](#project-overview)
 2. [System Architecture](#system-architecture)
 3. [Technology Stack](#technology-stack)
@@ -17,7 +17,7 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 **SECRET DIARY** is a Laravel-based web application that allows users to submit anonymous diary entries. The application features a beautiful pink-themed UI, role-based access control (RBAC), and a responsive design.
 
@@ -31,7 +31,7 @@
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ### MVC Architecture
 The application follows Laravel's Model-View-Controller (MVC) pattern:
@@ -51,7 +51,7 @@ User Request → Routes (web.php) → Middleware → Controller → Model → Da
 
 ---
 
-## 💻 Technology Stack
+## Technology Stack
 
 ### Backend
 - **Framework**: Laravel 10.50.0
@@ -73,7 +73,7 @@ User Request → Routes (web.php) → Middleware → Controller → Model → Da
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 laravel-aivie/
@@ -164,7 +164,7 @@ laravel-aivie/
 
 ---
 
-## 🗄️ Database Schema
+## Database Schema
 
 ### Tables
 
@@ -271,7 +271,7 @@ Queue jobs.
 
 ---
 
-## ⚙️ Features & Functionality
+## Features & Functionality
 
 ### 1. Landing Page (`/`)
 The landing page consists of multiple sections:
@@ -385,7 +385,7 @@ The landing page consists of multiple sections:
 
 ---
 
-## 🎮 Controllers & Routes
+## Controllers & Routes
 
 ### HomeController
 **Location**: `app/Http/Controllers/HomeController.php`
@@ -454,7 +454,7 @@ GET  /my-stories    → DiaryController@myStories (auth required)
 
 ---
 
-## 📊 Models & Relationships
+## Models & Relationships
 
 ### User Model
 **Location**: `app/Models/User.php`
@@ -489,7 +489,7 @@ GET  /my-stories    → DiaryController@myStories (auth required)
 
 ---
 
-## 🔐 Authentication & Authorization
+## Authentication & Authorization
 
 ### Authentication System
 - **Driver**: Session-based authentication
@@ -519,7 +519,7 @@ GET  /my-stories    → DiaryController@myStories (auth required)
 
 ---
 
-## 🎨 Frontend Structure
+## Frontend Structure
 
 ### Layout Template
 **File**: `resources/views/layouts/app.blade.php`
@@ -591,7 +591,7 @@ GET  /my-stories    → DiaryController@myStories (auth required)
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 1. PHP 8.1 or higher
@@ -663,7 +663,7 @@ GET  /my-stories    → DiaryController@myStories (auth required)
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -713,7 +713,7 @@ QUEUE_CONNECTION=database
 
 ---
 
-## 🔄 Application Flow
+## Application Flow
 
 ### User Registration Flow
 ```
@@ -749,7 +749,7 @@ QUEUE_CONNECTION=database
 
 ---
 
-## 🛡️ Security Features
+## Security Features
 
 1. **CSRF Protection**: All forms protected with CSRF tokens
 2. **Password Hashing**: Bcrypt hashing for passwords
@@ -762,7 +762,7 @@ QUEUE_CONNECTION=database
 
 ---
 
-## 📝 Key Code Examples
+## Key Code Examples
 
 ### Creating a Diary Entry
 ```php
@@ -795,7 +795,7 @@ $user->assignRole('user');
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Default Accounts
 After running `php artisan migrate --seed`:
@@ -846,7 +846,7 @@ php artisan migrate:fresh --seed
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 ### PHP Packages (composer.json)
 - `laravel/framework`: ^10.10
@@ -861,7 +861,7 @@ php artisan migrate:fresh --seed
 
 ---
 
-## 🌐 Deployment Considerations
+## Deployment Considerations
 
 ### Production Checklist
 - [ ] Set `APP_ENV=production`
@@ -883,7 +883,7 @@ php artisan migrate:fresh --seed
 
 ---
 
-## 📚 Additional Resources
+## Additional Resources
 
 - [Laravel Documentation](https://laravel.com/docs/10.x)
 - [Spatie Permission Documentation](https://spatie.be/docs/laravel-permission)
@@ -891,15 +891,11 @@ php artisan migrate:fresh --seed
 
 ---
 
-## 👥 Default Users
+## Default Users
 
 After seeding:
 - **Admin**: admin@example.com / password
 - **User**: user@example.com / password
 
----
 
-**Version**: 1.0.0  
-**Last Updated**: 2024  
-**Framework**: Laravel 10.50.0
 
