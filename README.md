@@ -4,13 +4,13 @@ A beautiful Laravel application with Role-Based Access Control (RBAC) for submit
 
 ## Features
 
-- 🎨 Beautiful pink-themed UI with custom hero images
-- 🔐 User authentication (login, register, logout)
-- 👥 Role-Based Access Control (RBAC) using Spatie Laravel Permission
-- 💬 Anonymous diary entry submission
-- 📖 Public display of anonymous messages in "DEAR DIARY" section
-- 📝 Personal "My Stories" section to track all submissions
-- 📱 Responsive design
+- Beautiful pink-themed UI with custom hero images
+- User authentication (login, register, logout)
+- Role-Based Access Control (RBAC) using Spatie Laravel Permission
+- Anonymous diary entry submission
+- Public display of anonymous messages in "DEAR DIARY" section
+- Personal "My Stories" section to track all submissions
+- Responsive design
 
 ## Quick Start
 
