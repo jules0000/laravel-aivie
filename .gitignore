@@ -16,3 +16,36 @@ yarn-error.log
 /.idea
 /.vscode
 
+# Laravel specific
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+bootstrap/cache/*
+!bootstrap/cache/.gitignore
+
+# Composer
+composer.phar
+
+# Database dumps
+*.sql
+
+# Laravel specific
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+bootstrap/cache/*
+!bootstrap/cache/.gitignore
+
+# Composer
+composer.phar
+composer-setup.php
+
+# Database
+*.sql
+
